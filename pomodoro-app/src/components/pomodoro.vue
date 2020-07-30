@@ -84,7 +84,7 @@ export default {
 			}	
 			return time.toString()
 		},
-		start () {
+		start () { 
 			
 			this.stop()
 			this.isRunning = true
