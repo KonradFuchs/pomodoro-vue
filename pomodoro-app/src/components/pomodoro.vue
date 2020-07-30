@@ -86,7 +86,7 @@ export default {
 		},
 		start () { 
 			
-			this.stop()
+			this.stop() 
 			this.isRunning = true
 			this.timerInstance = setInterval(() => {
 				if (this.totalSeconds <= 0) {
